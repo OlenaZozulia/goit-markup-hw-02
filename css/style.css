@@ -197,23 +197,21 @@ body {
   letter-spacing: 0.03em;
 }
 
-.address-footer {
-  font-family: Roboto, sans-serif;
+.address-footer .info {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-.contacts-footer {
-  font-family: Roboto, sans-serif;
+.contacts-footer .info {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-white-color);
 }
-.contacts-footer:hover,
-.contacts-footer:focus {
+.contacts-footer .info:hover,
+.contacts-footer .info:focus {
   color: var(--accent-text-color);
 }
