@@ -47,7 +47,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  word-spacing: 0px;
 }
 /***** Навігація по сайту ******/
 .site-nav .link {
@@ -196,18 +195,25 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-text-color);
 }
+
 .address-footer {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 .contacts-footer {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-white-color);
 }
-.contacts-footer .info:hover,
-.contacts-footer .infoge:focus {
+.contacts-footer:hover,
+.contacts-footer:focus {
   color: var(--accent-text-color);
 }
