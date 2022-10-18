@@ -70,7 +70,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--second-text-color);
 }
 .contacts-nav .contacts:hover,
 .contacts-nav .contacts:focus {
@@ -197,21 +197,21 @@ body {
   letter-spacing: 0.03em;
 }
 
-.address-footer .info {
+.address-footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-.contacts-footer .info {
+.contacts-footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-white-color);
 }
-.contacts-footer .info:hover,
-.contacts-footer .info:focus {
+.contacts-footer:hover,
+.contacts-footer:focus {
   color: var(--accent-text-color);
 }
